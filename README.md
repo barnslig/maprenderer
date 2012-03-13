@@ -10,11 +10,11 @@ How-To set up
 -------------
 1.  Please create a directory called „data“ or so and create a <i>config.ini</i> and a <i>style.ini</i> in it.
 2.  Now you have to configure the style of the map and some other things. 
-  *  Use for each way-element from the XML-Mapfile a new section in your style-configuration. Use something like that:
-     > [key]
-     > value = #ff0000
-     > value_s = 2
-     > value_fill = #00ff00
+  *  Use for each way-element from the XML-Mapfile a new section in your style-configuration. Use something like that:  
+     > [key]  
+     > value = #ff0000  
+     > value_s = 2  
+     > value_fill = #00ff00  
   *  Create a section named <i>[tiles]</i> in your <i>config.ini</i> and set the both values store and size. Size defines the size of the tiles (usually 256), store the place where 
 the renderer should store the tiles. (data/tiles/ or something like that)
 3.  Set the place of your XML-Mapfile in the <i>start.py</i> — it's hardcoded there because I'm so lazy :P 
